@@ -1,0 +1,150 @@
+{
+  "@context" : {
+    "role" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#role",
+      "@type" : "@id"
+    },
+    "accountName" : {
+      "@id" : "http://xmlns.com/foaf/0.1/accountName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "height" : {
+      "@id" : "http://schema.org/height",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "i_winnerOf" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#i_winnerOf",
+      "@type" : "@id"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "sourceOrganization" : {
+      "@id" : "http://schema.org/sourceOrganization",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "deathPlace" : {
+      "@id" : "http://schema.org/deathPlace",
+      "@type" : "@id"
+    },
+    "deathDate" : {
+      "@id" : "http://schema.org/deathDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "MediaObject" : {
+      "@id" : "http://schema.org/MediaObject"
+    },
+    "pageID" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#pageID",
+      "@type" : "@id"
+    },
+    "Person" : {
+      "@id" : "http://schema.org/Person"
+    },
+    "propertyID" : {
+      "@id" : "http://schema.org/propertyID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "contentUrl" : {
+      "@id" : "http://schema.org/contentUrl",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "name" : {
+      "@id" : "http://schema.org/name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "value" : {
+      "@id" : "http://schema.org/value",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "countryBirthNode" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#countryBirthNode",
+      "@type" : "@id"
+    },
+    "i_authorOf" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#i_authorOf",
+      "@type" : "@id"
+    },
+    "countryDeathNode" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#countryDeathNode",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://schema.org/identifier",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Person_Role" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#Person_Role"
+    },
+    "CountryDeathPath" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#CountryDeathPath"
+    },
+    "OnlineAccount" : {
+      "@id" : "http://xmlns.com/foaf/0.1/OnlineAccount"
+    },
+    "signature" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#signature",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthPlace" : {
+      "@id" : "http://schema.org/birthPlace",
+      "@type" : "@id"
+    },
+    "hasOccupation" : {
+      "@id" : "http://schema.org/hasOccupation",
+      "@type" : "@id"
+    },
+    "i_producerOf" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#i_producerOf",
+      "@type" : "@id"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "i_directorOf" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#i_directorOf",
+      "@type" : "@id"
+    },
+    "i_actorOf" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#i_actorOf",
+      "@type" : "@id"
+    },
+    "Text" : {
+      "@id" : "http://schema.org/Text"
+    },
+    "accountServiceHomepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/accountServiceHomepage",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sameAs" : {
+      "@id" : "http://schema.org/sameAs",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "CountryBirthPath" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#CountryBirthPath"
+    },
+    "alternateName" : {
+      "@id" : "http://schema.org/alternateName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://schema.org/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "popularity" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#popularity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

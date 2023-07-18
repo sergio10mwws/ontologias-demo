@@ -1,0 +1,43 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "gnossf:Person_Role" "schema:Person" "schema:Text" "foaf:OnlineAccount" "gnossf:CountryDeathPath" "gnossf:CountryBirthPath" "schema:MediaObject" ; /*classes style*/
+	"NULL" -> "schema:birthDate" [ label = "owl:onProperty" ];
+	"NULL" -> "schema:birthPlace" [ label = "owl:onProperty" ];
+	"NULL" -> "schema:deathDate" [ label = "owl:onProperty" ];
+	"NULL" -> "schema:deathPlace" [ label = "owl:onProperty" ];
+	"NULL" -> "schema:image" [ label = "owl:onProperty" ];
+	"NULL" -> "schema:height" [ label = "owl:onProperty" ];
+	"NULL" -> "gnossf:popularity" [ label = "owl:onProperty" ];
+	"NULL" -> "gnossf:signature" [ label = "owl:onProperty" ];
+	"schema:Person" -> "xsd:string" [ label = "schema:alternateName" ];
+	"schema:Person" -> "owl:Thing" [ label = "gnossf:i_actorOf" ];
+	"schema:Person" -> "gnossf:CountryBirthPath" [ label = "schema:birthPlace" ];
+	"schema:Person" -> "owl:Thing" [ label = "gnossf:i_winnerOf" ];
+	"schema:Person" -> "xsd:string" [ label = "schema:height" ];
+	"schema:Person" -> "foaf:OnlineAccount" [ label = "schema:sameAs" ];
+	"schema:MediaObject" -> "xsd:string" [ label = "schema:contentUrl" ];
+	"gnossf:Person_Role" -> "xsd:int" [ label = "schema:value" ];
+	"schema:Person" -> "xsd:date" [ label = "schema:deathDate" ];
+	"gnossf:CountryBirthPath" -> "owl:Thing" [ label = "gnossf:countryBirthNode" ];
+	"schema:MediaObject" -> "xsd:string" [ label = "schema:sourceOrganization" ];
+	"foaf:OnlineAccount" -> "xsd:string" [ label = "foaf:accountServiceHomepage" ];
+	"schema:Person" -> "gnossf:Person_Role" [ label = "schema:hasOccupation" ];
+	"schema:Text" -> "xsd:string" [ label = "schema:identifier" ];
+	"schema:Person" -> "xsd:string" [ label = "schema:name" ];
+	"schema:Person" -> "owl:Thing" [ label = "gnossf:i_producerOf" ];
+	"schema:Person" -> "schema:Text" [ label = "gnossf:pageID" ];
+	"schema:Person" -> "owl:Thing" [ label = "gnossf:i_directorOf" ];
+	"gnossf:Person_Role" -> "owl:Thing" [ label = "gnossf:role" ];
+	"schema:Person" -> "gnossf:CountryDeathPath" [ label = "schema:deathPlace" ];
+	"schema:Person" -> "owl:Thing" [ label = "gnossf:i_authorOf" ];
+	"schema:Person" -> "schema:MediaObject" [ label = "schema:image" ];
+	"schema:Person" -> "xsd:string" [ label = "schema:description" ];
+	"gnossf:CountryDeathPath" -> "owl:Thing" [ label = "gnossf:countryDeathNode" ];
+	"schema:Text" -> "xsd:string" [ label = "schema:propertyID" ];
+	"schema:Person" -> "xsd:string" [ label = "gnossf:signature" ];
+	"foaf:OnlineAccount" -> "xsd:string" [ label = "foaf:accountName" ];
+	"schema:Person" -> "xsd:date" [ label = "schema:birthDate" ];
+	"schema:Person" -> "xsd:string" [ label = "gnossf:popularity" ];
+
+}
