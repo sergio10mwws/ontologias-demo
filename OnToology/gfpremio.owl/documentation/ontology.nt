@@ -1,0 +1,166 @@
+<http://www.owl-ontologies.com/Ontology1682597851.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://gnoss.com/ontology/gnossf.owl#award_ArtWork
+<http://gnoss.com/ontology/gnossf.owl#award_ArtWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#award_ArtWork> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#Award_Person> .
+<http://gnoss.com/ontology/gnossf.owl#award_ArtWork> <http://www.w3.org/2000/01/rdf-schema#label> "Awarded movie"@en .
+<http://gnoss.com/ontology/gnossf.owl#award_ArtWork> <http://www.w3.org/2000/01/rdf-schema#label> "Película premiada"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#award_Person
+<http://gnoss.com/ontology/gnossf.owl#award_Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#award_Person> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#Award_Person> .
+<http://gnoss.com/ontology/gnossf.owl#award_Person> <http://www.w3.org/2000/01/rdf-schema#label> "Awarded person"@en .
+<http://gnoss.com/ontology/gnossf.owl#award_Person> <http://www.w3.org/2000/01/rdf-schema#label> "Persona premiada"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#awardedArtWork
+<http://gnoss.com/ontology/gnossf.owl#awardedArtWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#awardedArtWork> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#AwardWinner> .
+<http://gnoss.com/ontology/gnossf.owl#awardedArtWork> <http://www.w3.org/2000/01/rdf-schema#label> "Awarded movie"@en .
+<http://gnoss.com/ontology/gnossf.owl#awardedArtWork> <http://www.w3.org/2000/01/rdf-schema#label> "Película premiada"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#awardedAuthor
+<http://gnoss.com/ontology/gnossf.owl#awardedAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#awardedAuthor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#AwardWinner> .
+<http://gnoss.com/ontology/gnossf.owl#awardedAuthor> <http://www.w3.org/2000/01/rdf-schema#range> <http://gnoss.com/ontology/gnossf.owl#Award_Person> .
+<http://gnoss.com/ontology/gnossf.owl#awardedAuthor> <http://www.w3.org/2000/01/rdf-schema#label> "Awarded person"@en .
+<http://gnoss.com/ontology/gnossf.owl#awardedAuthor> <http://www.w3.org/2000/01/rdf-schema#label> "Premiado/a"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#eventEdition
+<http://gnoss.com/ontology/gnossf.owl#eventEdition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#eventEdition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://gnoss.com/ontology/gnossf.owl#eventEdition> <http://www.w3.org/2000/01/rdf-schema#range> <http://gnoss.com/ontology/gnossf.owl#EventEdition> .
+<http://gnoss.com/ontology/gnossf.owl#eventEdition> <http://www.w3.org/2000/01/rdf-schema#label> "Edición"@es .
+<http://gnoss.com/ontology/gnossf.owl#eventEdition> <http://www.w3.org/2000/01/rdf-schema#label> "Edition" .
+# 
+# http://gnoss.com/ontology/gnossf.owl#hasAwardWinner
+<http://gnoss.com/ontology/gnossf.owl#hasAwardWinner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#hasAwardWinner> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#EventEdition> .
+<http://gnoss.com/ontology/gnossf.owl#hasAwardWinner> <http://www.w3.org/2000/01/rdf-schema#range> <http://gnoss.com/ontology/gnossf.owl#AwardWinner> .
+<http://gnoss.com/ontology/gnossf.owl#hasAwardWinner> <http://www.w3.org/2000/01/rdf-schema#label> "Ganador/a"@es .
+<http://gnoss.com/ontology/gnossf.owl#hasAwardWinner> <http://www.w3.org/2000/01/rdf-schema#label> "Winner"@en .
+# 
+# http://gnoss.com/ontology/gnossf.owl#rank
+<http://gnoss.com/ontology/gnossf.owl#rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#rank> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#AwardWinner> .
+<http://gnoss.com/ontology/gnossf.owl#rank> <http://www.w3.org/2000/01/rdf-schema#label> "Nominado o ganador"@es .
+<http://gnoss.com/ontology/gnossf.owl#rank> <http://www.w3.org/2000/01/rdf-schema#label> "Nominated or winner"@en .
+# 
+# http://schema.org/category
+<http://schema.org/category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/category> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#AwardWinner> .
+<http://schema.org/category> <http://www.w3.org/2000/01/rdf-schema#label> "Category"@en .
+<http://schema.org/category> <http://www.w3.org/2000/01/rdf-schema#label> "Categoría"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://gnoss.com/ontology/gnossf.owl#editionNumber
+<http://gnoss.com/ontology/gnossf.owl#editionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://gnoss.com/ontology/gnossf.owl#editionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://gnoss.com/ontology/gnossf.owl#editionNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#EventEdition> .
+<http://gnoss.com/ontology/gnossf.owl#editionNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://gnoss.com/ontology/gnossf.owl#editionNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de edición"@es .
+<http://gnoss.com/ontology/gnossf.owl#editionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Edition number"@en .
+# 
+# http://gnoss.com/ontology/gnossf.owl#pageID
+<http://gnoss.com/ontology/gnossf.owl#pageID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://gnoss.com/ontology/gnossf.owl#pageID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://gnoss.com/ontology/gnossf.owl#pageID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://gnoss.com/ontology/gnossf.owl#pageID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://gnoss.com/ontology/gnossf.owl#pageID> <http://www.w3.org/2000/01/rdf-schema#label> "Identificador"@es .
+<http://gnoss.com/ontology/gnossf.owl#pageID> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"@en .
+# 
+# http://schema.org/name
+<http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://schema.org/Event> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://gnoss.com/ontology/gnossf.owl#AwardWinner> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label> "Award name"@en .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label> "Nombre del premio"@es .
+# 
+# http://www.w3.org/2006/time#year
+<http://www.w3.org/2006/time#year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2006/time#year> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#EventEdition> .
+<http://www.w3.org/2006/time#year> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2006/time#year> <http://www.w3.org/2000/01/rdf-schema#label> "Año"@es .
+<http://www.w3.org/2006/time#year> <http://www.w3.org/2000/01/rdf-schema#label> "Year"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://gnoss.com/ontology/gnossf.owl#AwardWinner
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://gnoss.com/ontology/gnossf.owl#awardedArtWork> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://gnoss.com/ontology/gnossf.owl#rank> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/category> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/name> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#label> "Award Winner"@en .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#label> "Ganador/a"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#Award_Person
+<http://gnoss.com/ontology/gnossf.owl#Award_Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://gnoss.com/ontology/gnossf.owl#Award_Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://gnoss.com/ontology/gnossf.owl#Award_Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://gnoss.com/ontology/gnossf.owl#award_ArtWork> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://gnoss.com/ontology/gnossf.owl#Award_Person> <http://www.w3.org/2000/01/rdf-schema#label> "Award/Person"@en .
+<http://gnoss.com/ontology/gnossf.owl#Award_Person> <http://www.w3.org/2000/01/rdf-schema#label> "Premio/ Persona"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#EventEdition
+<http://gnoss.com/ontology/gnossf.owl#EventEdition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://gnoss.com/ontology/gnossf.owl#EventEdition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://gnoss.com/ontology/gnossf.owl#EventEdition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2006/time#year> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://gnoss.com/ontology/gnossf.owl#EventEdition> <http://www.w3.org/2000/01/rdf-schema#label> "Edición"@es .
+<http://gnoss.com/ontology/gnossf.owl#EventEdition> <http://www.w3.org/2000/01/rdf-schema#label> "Edition"@en .
+# 
+# http://schema.org/Event
+<http://schema.org/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Festival de cine"@es .
+<http://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Movie event"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

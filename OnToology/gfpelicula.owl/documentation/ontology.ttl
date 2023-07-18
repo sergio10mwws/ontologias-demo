@@ -1,0 +1,401 @@
+@prefix : <http://www.owl-ontologies.com/Ontology1683013957.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.owl-ontologies.com/Ontology1683013957.owl#> .
+
+<http://www.owl-ontologies.com/Ontology1683013957.owl> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://gnoss.com/ontology/gnossf.owl#countryOriginNode
+<http://gnoss.com/ontology/gnossf.owl#countryOriginNode> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://gnoss.com/ontology/gnossf.owl#CountryOriginPath> ;
+                                                         rdfs:label "Nodo país"@es ,
+                                                                    "Country node" .
+
+
+###  http://gnoss.com/ontology/gnossf.owl#countryRecordedNode
+<http://gnoss.com/ontology/gnossf.owl#countryRecordedNode> rdf:type owl:ObjectProperty ;
+                                                           rdfs:domain <http://gnoss.com/ontology/gnossf.owl#CountryRecordedPath> ;
+                                                           rdfs:label "Country node"@en ,
+                                                                      "Nodo país"@es .
+
+
+###  http://gnoss.com/ontology/gnossf.owl#i_winnerOf
+<http://gnoss.com/ontology/gnossf.owl#i_winnerOf> rdf:type owl:ObjectProperty ;
+                                                  rdfs:domain <http://schema.org/Movie> ;
+                                                  rdfs:label "Ganadora de"@es ,
+                                                             "Winner of"@en .
+
+
+###  http://gnoss.com/ontology/gnossf.owl#pageID
+<http://gnoss.com/ontology/gnossf.owl#pageID> rdf:type owl:ObjectProperty ;
+                                              rdfs:domain <http://schema.org/Movie> ;
+                                              rdfs:range <http://schema.org/Text> ;
+                                              rdfs:label "Identificadores"@es ,
+                                                         "Identifiers"@en .
+
+
+###  http://schema.org/actor
+<http://schema.org/actor> rdf:type owl:ObjectProperty ;
+                          rdfs:domain <http://schema.org/Movie> ;
+                          rdfs:label "Actor"@en ,
+                                     "Actor/Actriz"@es .
+
+
+###  http://schema.org/aggregateRating
+<http://schema.org/aggregateRating> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <http://schema.org/Movie> ;
+                                    rdfs:range <http://schema.org/Rating> ;
+                                    rdfs:label "Ratings"@en ,
+                                               "Valoraciones"@es .
+
+
+###  http://schema.org/author
+<http://schema.org/author> rdf:type owl:ObjectProperty ;
+                           rdfs:domain <http://schema.org/Movie> ;
+                           rdfs:label "Author"@en ,
+                                      "Guionista"@es .
+
+
+###  http://schema.org/countryOfOrigin
+<http://schema.org/countryOfOrigin> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <http://schema.org/Movie> ;
+                                    rdfs:range <http://gnoss.com/ontology/gnossf.owl#CountryOriginPath> ;
+                                    rdfs:label "Country of origin"@en ,
+                                               "País de origen"@es .
+
+
+###  http://schema.org/director
+<http://schema.org/director> rdf:type owl:ObjectProperty ;
+                             rdfs:domain <http://schema.org/Movie> ;
+                             rdfs:label "Director"@en ,
+                                        "Director/a"@es .
+
+
+###  http://schema.org/genre
+<http://schema.org/genre> rdf:type owl:ObjectProperty ;
+                          rdfs:domain <http://schema.org/Movie> ;
+                          rdfs:label "Genre"@en ,
+                                     "Género"@es .
+
+
+###  http://schema.org/image
+<http://schema.org/image> rdf:type owl:ObjectProperty ;
+                          rdfs:domain <http://schema.org/Movie> ;
+                          rdfs:range <http://schema.org/MediaObject> ;
+                          rdfs:label "Image"@en ,
+                                     "Imagen"@es .
+
+
+###  http://schema.org/producer
+<http://schema.org/producer> rdf:type owl:ObjectProperty ;
+                             rdfs:domain <http://schema.org/Movie> ;
+                             rdfs:label "Producer"@en ,
+                                        "Productor/a"@es .
+
+
+###  http://schema.org/productionCompany
+<http://schema.org/productionCompany> rdf:type owl:ObjectProperty ;
+                                      rdfs:domain <http://schema.org/Movie> ;
+                                      rdfs:comment "Productoras (organizaciones)"@es ;
+                                      rdfs:label "Production Company"@en ,
+                                                 "Productora (Organización)"@es .
+
+
+###  http://schema.org/provider
+<http://schema.org/provider> rdf:type owl:ObjectProperty ;
+                             rdfs:domain <http://schema.org/Movie> ;
+                             rdfs:label "Plataforma"@es ,
+                                        "Provider"@en .
+
+
+###  http://schema.org/recordedAt
+<http://schema.org/recordedAt> rdf:type owl:ObjectProperty ;
+                               rdfs:domain <http://schema.org/Movie> ;
+                               rdfs:range <http://gnoss.com/ontology/gnossf.owl#CountryRecordedPath> ;
+                               rdfs:label "Recorded at"@en ,
+                                          "Rodada en"@es .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://gnoss.com/ontology/gnossf.owl#boxOffice
+<http://gnoss.com/ontology/gnossf.owl#boxOffice> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://schema.org/Movie> ;
+                                                 rdfs:range xsd:float ;
+                                                 rdfs:label "Box office"@en ,
+                                                            "Recaudación"@es .
+
+
+###  http://gnoss.com/ontology/gnossf.owl#budget
+<http://gnoss.com/ontology/gnossf.owl#budget> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain <http://schema.org/Movie> ;
+                                              rdfs:range xsd:int ;
+                                              rdfs:label "Budget"@en ,
+                                                         "Presupuesto"@es .
+
+
+###  http://gnoss.com/ontology/gnossf.owl#color
+<http://gnoss.com/ontology/gnossf.owl#color> rdf:type owl:DatatypeProperty ;
+                                             rdfs:domain <http://schema.org/Movie> ;
+                                             rdfs:range xsd:string ;
+                                             rdfs:label "Color"@en ,
+                                                        "Color"@es .
+
+
+###  http://gnoss.com/ontology/gnossf.owl#popularity
+<http://gnoss.com/ontology/gnossf.owl#popularity> rdf:type owl:DatatypeProperty ,
+                                                           owl:FunctionalProperty ;
+                                                  rdfs:domain <http://schema.org/Rating> ;
+                                                  rdfs:range xsd:int ;
+                                                  rdfs:label "Amount"@en ,
+                                                             "Cantidad"@es .
+
+
+###  http://schema.org/additionalType
+<http://schema.org/additionalType> rdf:type owl:DatatypeProperty ,
+                                            owl:FunctionalProperty ;
+                                   rdfs:domain <http://schema.org/MediaObject> ;
+                                   rdfs:range xsd:string ;
+                                   rdfs:label "Tipo"@es ,
+                                              "Type"@en .
+
+
+###  http://schema.org/alternateHeadline
+<http://schema.org/alternateHeadline> rdf:type owl:DatatypeProperty ;
+                                      rdfs:domain <http://schema.org/Movie> ;
+                                      rdfs:range xsd:string ;
+                                      rdfs:label "Frase promocional"@es ,
+                                                 "Tagline"@en .
+
+
+###  http://schema.org/alternateName
+<http://schema.org/alternateName> rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain <http://schema.org/Movie> ;
+                                  rdfs:range xsd:string ;
+                                  rdfs:label "Title"@en ,
+                                             "Título"@es .
+
+
+###  http://schema.org/contentUrl
+<http://schema.org/contentUrl> rdf:type owl:DatatypeProperty ,
+                                        owl:FunctionalProperty ;
+                               rdfs:domain <http://schema.org/MediaObject> ;
+                               rdfs:range xsd:string ;
+                               rdfs:label "Enlace"@es ,
+                                          "Url"@en .
+
+
+###  http://schema.org/datePublished
+<http://schema.org/datePublished> rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain <http://schema.org/Movie> ;
+                                  rdfs:range xsd:date ;
+                                  rdfs:label "Date published"@en ,
+                                             "Fecha de publicación"@es .
+
+
+###  http://schema.org/description
+<http://schema.org/description> rdf:type owl:DatatypeProperty ,
+                                         owl:FunctionalProperty ;
+                                rdfs:domain <http://schema.org/Movie> ;
+                                rdfs:range xsd:string ;
+                                rdfs:label "Sinopsis"@en ,
+                                           "Sinópsis"@es .
+
+
+###  http://schema.org/duration
+<http://schema.org/duration> rdf:type owl:DatatypeProperty ;
+                             rdfs:domain <http://schema.org/Movie> ;
+                             rdfs:range xsd:int ;
+                             rdfs:label "Duración"@es ,
+                                        "Duration"@en .
+
+
+###  http://schema.org/identifier
+<http://schema.org/identifier> rdf:type owl:DatatypeProperty ,
+                                        owl:FunctionalProperty ;
+                               rdfs:domain <http://schema.org/Text> ;
+                               rdfs:range xsd:string ;
+                               rdfs:label "Identificador"@es ,
+                                          "Identifier"@en .
+
+
+###  http://schema.org/inLanguage
+<http://schema.org/inLanguage> rdf:type owl:DatatypeProperty ;
+                               rdfs:domain <http://schema.org/Movie> ;
+                               rdfs:range xsd:string ;
+                               rdfs:label "Idioma"@es ,
+                                          "Language"@en .
+
+
+###  http://schema.org/name
+<http://schema.org/name> rdf:type owl:DatatypeProperty ,
+                                  owl:FunctionalProperty ;
+                         rdfs:domain <http://schema.org/Movie> ;
+                         rdfs:range xsd:string ;
+                         rdfs:label "Original title"@en ,
+                                    "Título original"@es .
+
+
+###  http://schema.org/propertyID
+<http://schema.org/propertyID> rdf:type owl:DatatypeProperty ,
+                                        owl:FunctionalProperty ;
+                               rdfs:domain <http://schema.org/Text> ;
+                               rdfs:range xsd:string ;
+                               rdfs:label "Fuente"@es ,
+                                          "Source"@en .
+
+
+###  http://schema.org/ratingValue
+<http://schema.org/ratingValue> rdf:type owl:DatatypeProperty ,
+                                         owl:FunctionalProperty ;
+                                rdfs:domain <http://schema.org/Rating> ;
+                                rdfs:range xsd:int ;
+                                rdfs:label "Valor"@es ,
+                                           "Value"@en .
+
+
+###  http://schema.org/sameAs
+<http://schema.org/sameAs> rdf:type owl:DatatypeProperty ,
+                                    owl:FunctionalProperty ;
+                           rdfs:domain <http://schema.org/Rating> ;
+                           rdfs:range xsd:string ;
+                           rdfs:label "Fuente"@es ,
+                                      "Source"@en .
+
+
+###  http://schema.org/sourceOrganization
+<http://schema.org/sourceOrganization> rdf:type owl:DatatypeProperty ,
+                                                owl:FunctionalProperty ;
+                                       rdfs:domain <http://schema.org/MediaObject> ;
+                                       rdfs:range xsd:string ;
+                                       rdfs:label "Fuente"@es ,
+                                                  "Source"@en .
+
+
+###  http://schema.org/trailer
+<http://schema.org/trailer> rdf:type owl:DatatypeProperty ;
+                            rdfs:domain <http://schema.org/Movie> ;
+                            rdfs:range xsd:string ;
+                            rdfs:label "Trailer"@en ,
+                                       "Tráiler"@es .
+
+
+###  http://schema.org/typicalAgeRange
+<http://schema.org/typicalAgeRange> rdf:type owl:DatatypeProperty ;
+                                    rdfs:domain <http://schema.org/Movie> ;
+                                    rdfs:range xsd:string ;
+                                    rdfs:label "Edad recomendada"@es ,
+                                               "Parental advisory"@en .
+
+
+###  http://schema.org/url
+<http://schema.org/url> rdf:type owl:DatatypeProperty ;
+                        rdfs:domain <http://schema.org/Movie> ;
+                        rdfs:range xsd:string ;
+                        rdfs:label "Oficial site"@en ,
+                                   "Web oficial"@es .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://gnoss.com/ontology/gnossf.owl#CountryOriginPath
+<http://gnoss.com/ontology/gnossf.owl#CountryOriginPath> rdf:type owl:Class ;
+                                                         rdfs:label "Country of origin"@en ,
+                                                                    "Lugar de origen"@es .
+
+
+###  http://gnoss.com/ontology/gnossf.owl#CountryRecordedPath
+<http://gnoss.com/ontology/gnossf.owl#CountryRecordedPath> rdf:type owl:Class ;
+                                                           rdfs:label "Lugar de rodaje"@es ,
+                                                                      "Recorded at"@en .
+
+
+###  http://schema.org/MediaObject
+<http://schema.org/MediaObject> rdf:type owl:Class ;
+                                rdfs:label "Image"@en ,
+                                           "Imagen"@es .
+
+
+###  http://schema.org/Movie
+<http://schema.org/Movie> rdf:type owl:Class ;
+                          rdfs:subClassOf owl:Thing ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <http://gnoss.com/ontology/gnossf.owl#pageID> ;
+                                            owl:minCardinality "1"^^xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <http://schema.org/genre> ;
+                                            owl:minCardinality "1"^^xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <http://schema.org/alternateName> ;
+                                            owl:cardinality "1"^^xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <http://schema.org/datePublished> ;
+                                            owl:cardinality "1"^^xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <http://schema.org/duration> ;
+                                            owl:cardinality "1"^^xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <http://schema.org/inLanguage> ;
+                                            owl:cardinality "1"^^xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <http://schema.org/typicalAgeRange> ;
+                                            owl:cardinality "1"^^xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <http://gnoss.com/ontology/gnossf.owl#boxOffice> ;
+                                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <http://gnoss.com/ontology/gnossf.owl#budget> ;
+                                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <http://gnoss.com/ontology/gnossf.owl#color> ;
+                                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <http://schema.org/alternateHeadline> ;
+                                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                                          ] ;
+                          rdfs:label "Movie"@en ,
+                                     "Película"@es .
+
+
+###  http://schema.org/Rating
+<http://schema.org/Rating> rdf:type owl:Class ;
+                           rdfs:label "Rating"@en ,
+                                      "Valoraciones"@es .
+
+
+###  http://schema.org/Text
+<http://schema.org/Text> rdf:type owl:Class ;
+                         rdfs:label "Identificadores"@es ,
+                                    "Identifiers"@en .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
