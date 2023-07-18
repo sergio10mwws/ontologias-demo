@@ -1,0 +1,312 @@
+<http://www.owl-ontologies.com/Ontology1682670752.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://gnoss.com/ontology/gnossf.owl#countryBirthNode
+<http://gnoss.com/ontology/gnossf.owl#countryBirthNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#countryBirthNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#CountryBirthPath> .
+# 
+# http://gnoss.com/ontology/gnossf.owl#countryDeathNode
+<http://gnoss.com/ontology/gnossf.owl#countryDeathNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#countryDeathNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#CountryDeathPath> .
+# 
+# http://gnoss.com/ontology/gnossf.owl#i_actorOf
+<http://gnoss.com/ontology/gnossf.owl#i_actorOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#i_actorOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://gnoss.com/ontology/gnossf.owl#i_actorOf> <http://www.w3.org/2000/01/rdf-schema#label> "Actor of"@en .
+<http://gnoss.com/ontology/gnossf.owl#i_actorOf> <http://www.w3.org/2000/01/rdf-schema#label> "Actor/Acrtiz en"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#i_authorOf
+<http://gnoss.com/ontology/gnossf.owl#i_authorOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#i_authorOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://gnoss.com/ontology/gnossf.owl#i_authorOf> <http://www.w3.org/2000/01/rdf-schema#label> "Author of"@en .
+<http://gnoss.com/ontology/gnossf.owl#i_authorOf> <http://www.w3.org/2000/01/rdf-schema#label> "Guionista de"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#i_directorOf
+<http://gnoss.com/ontology/gnossf.owl#i_directorOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#i_directorOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://gnoss.com/ontology/gnossf.owl#i_directorOf> <http://www.w3.org/2000/01/rdf-schema#label> "Director of"@en .
+<http://gnoss.com/ontology/gnossf.owl#i_directorOf> <http://www.w3.org/2000/01/rdf-schema#label> "Director/directora de"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#i_producerOf
+<http://gnoss.com/ontology/gnossf.owl#i_producerOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#i_producerOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://gnoss.com/ontology/gnossf.owl#i_producerOf> <http://www.w3.org/2000/01/rdf-schema#label> "Producer of"@en .
+<http://gnoss.com/ontology/gnossf.owl#i_producerOf> <http://www.w3.org/2000/01/rdf-schema#label> "Productor/a de"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#i_winnerOf
+<http://gnoss.com/ontology/gnossf.owl#i_winnerOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#i_winnerOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://gnoss.com/ontology/gnossf.owl#i_winnerOf> <http://www.w3.org/2000/01/rdf-schema#label> "Ganador/a de"@es .
+<http://gnoss.com/ontology/gnossf.owl#i_winnerOf> <http://www.w3.org/2000/01/rdf-schema#label> "Winner of"@en .
+# 
+# http://gnoss.com/ontology/gnossf.owl#pageID
+<http://gnoss.com/ontology/gnossf.owl#pageID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#pageID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://gnoss.com/ontology/gnossf.owl#pageID> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Text> .
+<http://gnoss.com/ontology/gnossf.owl#pageID> <http://www.w3.org/2000/01/rdf-schema#label> "Identificadores"@es .
+<http://gnoss.com/ontology/gnossf.owl#pageID> <http://www.w3.org/2000/01/rdf-schema#label> "Identifiers"@en .
+# 
+# http://gnoss.com/ontology/gnossf.owl#role
+<http://gnoss.com/ontology/gnossf.owl#role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://gnoss.com/ontology/gnossf.owl#role> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#Person_Role> .
+<http://gnoss.com/ontology/gnossf.owl#role> <http://www.w3.org/2000/01/rdf-schema#label> "Ocupación"@es .
+<http://gnoss.com/ontology/gnossf.owl#role> <http://www.w3.org/2000/01/rdf-schema#label> "Role"@en .
+# 
+# http://schema.org/birthPlace
+<http://schema.org/birthPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/birthPlace> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://schema.org/birthPlace> <http://www.w3.org/2000/01/rdf-schema#range> <http://gnoss.com/ontology/gnossf.owl#CountryBirthPath> .
+<http://schema.org/birthPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Birth place"@en .
+<http://schema.org/birthPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Lugar de nacimiento"@es .
+# 
+# http://schema.org/deathPlace
+<http://schema.org/deathPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/deathPlace> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://schema.org/deathPlace> <http://www.w3.org/2000/01/rdf-schema#range> <http://gnoss.com/ontology/gnossf.owl#CountryDeathPath> .
+<http://schema.org/deathPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Death place"@en .
+<http://schema.org/deathPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Lugar de fallecimiento"@es .
+# 
+# http://schema.org/hasOccupation
+<http://schema.org/hasOccupation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/hasOccupation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://schema.org/hasOccupation> <http://www.w3.org/2000/01/rdf-schema#range> <http://gnoss.com/ontology/gnossf.owl#Person_Role> .
+<http://schema.org/hasOccupation> <http://www.w3.org/2000/01/rdf-schema#label> "Ocupación"@es .
+<http://schema.org/hasOccupation> <http://www.w3.org/2000/01/rdf-schema#label> "Role"@en .
+# 
+# http://schema.org/image
+<http://schema.org/image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/image> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://schema.org/image> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/MediaObject> .
+<http://schema.org/image> <http://www.w3.org/2000/01/rdf-schema#label> "Image"@en .
+<http://schema.org/image> <http://www.w3.org/2000/01/rdf-schema#label> "Imagen"@es .
+# 
+# http://schema.org/sameAs
+<http://schema.org/sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/sameAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://schema.org/sameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/OnlineAccount> .
+<http://schema.org/sameAs> <http://www.w3.org/2000/01/rdf-schema#label> "Red social"@es .
+<http://schema.org/sameAs> <http://www.w3.org/2000/01/rdf-schema#label> "Social Network"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://gnoss.com/ontology/gnossf.owl#popularity
+<http://gnoss.com/ontology/gnossf.owl#popularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://gnoss.com/ontology/gnossf.owl#popularity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://gnoss.com/ontology/gnossf.owl#popularity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://gnoss.com/ontology/gnossf.owl#popularity> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+<http://gnoss.com/ontology/gnossf.owl#popularity> <http://www.w3.org/2000/01/rdf-schema#label> "Popularidad"@es .
+<http://gnoss.com/ontology/gnossf.owl#popularity> <http://www.w3.org/2000/01/rdf-schema#label> "Popularity"@en .
+# 
+# http://gnoss.com/ontology/gnossf.owl#signature
+<http://gnoss.com/ontology/gnossf.owl#signature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://gnoss.com/ontology/gnossf.owl#signature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://gnoss.com/ontology/gnossf.owl#signature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://gnoss.com/ontology/gnossf.owl#signature> <http://www.w3.org/2000/01/rdf-schema#label> "Firma"@es .
+<http://gnoss.com/ontology/gnossf.owl#signature> <http://www.w3.org/2000/01/rdf-schema#label> "Signature"@en .
+# 
+# http://schema.org/alternateName
+<http://schema.org/alternateName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/alternateName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://schema.org/alternateName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://schema.org/alternateName> <http://www.w3.org/2000/01/rdf-schema#label> "Alias"@en .
+<http://schema.org/alternateName> <http://www.w3.org/2000/01/rdf-schema#label> "Alias"@es .
+# 
+# http://schema.org/birthDate
+<http://schema.org/birthDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/birthDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://schema.org/birthDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://schema.org/birthDate> <http://www.w3.org/2000/01/rdf-schema#label> "Birth date"@en .
+<http://schema.org/birthDate> <http://www.w3.org/2000/01/rdf-schema#label> "Fecha de nacimiento"@es .
+# 
+# http://schema.org/contentUrl
+<http://schema.org/contentUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/contentUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://schema.org/contentUrl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/MediaObject> .
+<http://schema.org/contentUrl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://schema.org/contentUrl> <http://www.w3.org/2000/01/rdf-schema#label> "Enlace"@es .
+<http://schema.org/contentUrl> <http://www.w3.org/2000/01/rdf-schema#label> "Url"@en .
+# 
+# http://schema.org/deathDate
+<http://schema.org/deathDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/deathDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://schema.org/deathDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://schema.org/deathDate> <http://www.w3.org/2000/01/rdf-schema#label> "Death date"@en .
+<http://schema.org/deathDate> <http://www.w3.org/2000/01/rdf-schema#label> "Fecha de defunción"@es .
+# 
+# http://schema.org/description
+<http://schema.org/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#label> "Biografía"@es .
+<http://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#label> "Biography"@en .
+# 
+# http://schema.org/height
+<http://schema.org/height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/height> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://schema.org/height> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://schema.org/height> <http://www.w3.org/2000/01/rdf-schema#label> "Altura"@es .
+<http://schema.org/height> <http://www.w3.org/2000/01/rdf-schema#label> "Height"@en .
+# 
+# http://schema.org/identifier
+<http://schema.org/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://schema.org/identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Text> .
+<http://schema.org/identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://schema.org/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Identificador" .
+<http://schema.org/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identificador"@es .
+<http://schema.org/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"@en .
+# 
+# http://schema.org/name
+<http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Person> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label> "Name"@en .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label> "Nombre"@es .
+# 
+# http://schema.org/propertyID
+<http://schema.org/propertyID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/propertyID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://schema.org/propertyID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Text> .
+<http://schema.org/propertyID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://schema.org/propertyID> <http://www.w3.org/2000/01/rdf-schema#label> "Fuente del ID"@es .
+<http://schema.org/propertyID> <http://www.w3.org/2000/01/rdf-schema#label> "ID source"@en .
+# 
+# http://schema.org/sourceOrganization
+<http://schema.org/sourceOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/sourceOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://schema.org/sourceOrganization> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/MediaObject> .
+<http://schema.org/sourceOrganization> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://schema.org/sourceOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "Fuente"@es .
+<http://schema.org/sourceOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "Source"@en .
+# 
+# http://schema.org/value
+<http://schema.org/value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://schema.org/value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#Person_Role> .
+<http://schema.org/value> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://schema.org/value> <http://www.w3.org/2000/01/rdf-schema#label> "Valor"@es .
+<http://schema.org/value> <http://www.w3.org/2000/01/rdf-schema#label> "Value"@en .
+# 
+# http://xmlns.com/foaf/0.1/accountName
+<http://xmlns.com/foaf/0.1/accountName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xmlns.com/foaf/0.1/accountName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://xmlns.com/foaf/0.1/accountName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/OnlineAccount> .
+<http://xmlns.com/foaf/0.1/accountName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://xmlns.com/foaf/0.1/accountName> <http://www.w3.org/2000/01/rdf-schema#label> "Name"@en .
+<http://xmlns.com/foaf/0.1/accountName> <http://www.w3.org/2000/01/rdf-schema#label> "Nombre"@es .
+# 
+# http://xmlns.com/foaf/0.1/accountServiceHomepage
+<http://xmlns.com/foaf/0.1/accountServiceHomepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xmlns.com/foaf/0.1/accountServiceHomepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://xmlns.com/foaf/0.1/accountServiceHomepage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/OnlineAccount> .
+<http://xmlns.com/foaf/0.1/accountServiceHomepage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://xmlns.com/foaf/0.1/accountServiceHomepage> <http://www.w3.org/2000/01/rdf-schema#label> "Enlace"@es .
+<http://xmlns.com/foaf/0.1/accountServiceHomepage> <http://www.w3.org/2000/01/rdf-schema#label> "Url"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://gnoss.com/ontology/gnossf.owl#CountryBirthPath
+<http://gnoss.com/ontology/gnossf.owl#CountryBirthPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://gnoss.com/ontology/gnossf.owl#CountryBirthPath> <http://www.w3.org/2000/01/rdf-schema#label> "Birth place"@en .
+<http://gnoss.com/ontology/gnossf.owl#CountryBirthPath> <http://www.w3.org/2000/01/rdf-schema#label> "Lugar de nacimiento"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#CountryDeathPath
+<http://gnoss.com/ontology/gnossf.owl#CountryDeathPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://gnoss.com/ontology/gnossf.owl#CountryDeathPath> <http://www.w3.org/2000/01/rdf-schema#label> "Death place"@en .
+<http://gnoss.com/ontology/gnossf.owl#CountryDeathPath> <http://www.w3.org/2000/01/rdf-schema#label> "Lugar de defunción"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#Person_Role
+<http://gnoss.com/ontology/gnossf.owl#Person_Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://gnoss.com/ontology/gnossf.owl#Person_Role> <http://www.w3.org/2000/01/rdf-schema#label> "Ocupación"@es .
+<http://gnoss.com/ontology/gnossf.owl#Person_Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role"@en .
+# 
+# http://schema.org/MediaObject
+<http://schema.org/MediaObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/MediaObject> <http://www.w3.org/2000/01/rdf-schema#label> "Image"@en .
+<http://schema.org/MediaObject> <http://www.w3.org/2000/01/rdf-schema#label> "Imagen"@es .
+# 
+# http://schema.org/Person
+<http://schema.org/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/birthPlace> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/image> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/deathPlace> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/birthDate> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/height> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://gnoss.com/ontology/gnossf.owl#popularity> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://gnoss.com/ontology/gnossf.owl#signature> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/deathDate> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Persona"@es .
+# 
+# http://schema.org/Text
+<http://schema.org/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Identificadores"@es .
+<http://schema.org/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Identifiers"@en .
+# 
+# http://xmlns.com/foaf/0.1/OnlineAccount
+<http://xmlns.com/foaf/0.1/OnlineAccount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/OnlineAccount> <http://www.w3.org/2000/01/rdf-schema#label> "Redes sociales"@es .
+<http://xmlns.com/foaf/0.1/OnlineAccount> <http://www.w3.org/2000/01/rdf-schema#label> "Social Networks"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
