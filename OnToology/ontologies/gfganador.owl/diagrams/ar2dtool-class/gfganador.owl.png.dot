@@ -1,0 +1,14 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "gnossf:AwardWinner" "gnossf:AwardPath" ; /*classes style*/
+	"NULL" -> "schema:name" [ label = "owl:onProperty" ];
+	"NULL" -> "time:year" [ label = "owl:onProperty" ];
+	"gnossf:AwardWinner" -> "owl:Thing" [ label = "gnossf:i_hasWinnerPerson" ];
+	"gnossf:AwardWinner" -> "xsd:string" [ label = "schema:name" ];
+	"gnossf:AwardWinner" -> "gnossf:AwardPath" [ label = "gnossf:hasAward" ];
+	"gnossf:AwardPath" -> "owl:Thing" [ label = "gnossf:awardNode" ];
+	"gnossf:AwardWinner" -> "xsd:int" [ label = "time:year" ];
+	"gnossf:AwardWinner" -> "owl:Thing" [ label = "gnossf:i_hasWinnerMovie" ];
+
+}
