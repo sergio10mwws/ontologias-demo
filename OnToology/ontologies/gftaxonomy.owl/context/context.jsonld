@@ -1,0 +1,50 @@
+{
+  "@context" : {
+    "scopeNote" : {
+      "@id" : "http://www.w3.org/2008/05/skos#scopeNote",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "member" : {
+      "@id" : "http://www.w3.org/2008/05/skos#member",
+      "@type" : "@id"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2008/05/skos#narrower",
+      "@type" : "@id"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2008/05/skos#Concept"
+    },
+    "related" : {
+      "@id" : "http://www.w3.org/2008/05/skos#related",
+      "@type" : "@id"
+    },
+    "note" : {
+      "@id" : "http://www.w3.org/2008/05/skos#note",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "symbol" : {
+      "@id" : "http://www.w3.org/2008/05/skos#symbol",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2008/05/skos#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2008/05/skos#prefLabel",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Collection" : {
+      "@id" : "http://www.w3.org/2008/05/skos#Collection"
+    }
+  }
+}
