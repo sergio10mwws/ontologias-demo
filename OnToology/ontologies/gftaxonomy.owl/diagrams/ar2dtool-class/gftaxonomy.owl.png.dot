@@ -1,12 +1,12 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "-154f6ef6:189aba37f68:-7ffc" "skos2:Concept" "skos2:Collection" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "-58f0695c:189ab9ccd27:-7ffc" "skos2:Concept" "skos2:Collection" ; /*classes style*/
+	"NULL" -> "-58f0695c:189ab9ccd27:-7ffa" [ label = "rdf:rest" ];
+	"NULL" -> "skos2:Collection" [ label = "rdf:first" ];
 	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
 	"NULL" -> "skos2:Concept" [ label = "rdf:first" ];
-	"NULL" -> "-154f6ef6:189aba37f68:-7ffb" [ label = "owl:unionOf" ];
-	"NULL" -> "-154f6ef6:189aba37f68:-7ffa" [ label = "rdf:rest" ];
-	"NULL" -> "skos2:Collection" [ label = "rdf:first" ];
+	"NULL" -> "-58f0695c:189ab9ccd27:-7ffb" [ label = "owl:unionOf" ];
 	"skos2:Concept" -> "xsd:string" [ label = "dc:identifier" ];
 	"skos2:Concept" -> "xsd:string" [ label = "skos2:prefLabel" ];
 	"skos2:Concept" -> "skos2:Concept" [ label = "skos2:narrower" ];
@@ -16,6 +16,6 @@ node [shape = rectangle, color="orange"]; "-154f6ef6:189aba37f68:-7ffc" "skos2:C
 	"skos2:Collection" -> "skos2:Concept" [ label = "skos2:member" ];
 	"skos2:Collection" -> "xsd:string" [ label = "skos2:scopeNote" ];
 	"skos2:Concept" -> "skos2:Concept" [ label = "skos2:broader" ];
-	"-154f6ef6:189aba37f68:-7ffc" -> "xsd:string" [ label = "dc:source" ];
+	"-58f0695c:189ab9ccd27:-7ffc" -> "xsd:string" [ label = "dc:source" ];
 
 }
