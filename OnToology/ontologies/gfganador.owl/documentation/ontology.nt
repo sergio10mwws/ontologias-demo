@@ -1,0 +1,86 @@
+<http://www.owl-ontologies.com/Ontology1682597851.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://gnoss.com/ontology/gnossf.owl#awardNode
+<http://gnoss.com/ontology/gnossf.owl#awardNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#awardNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#AwardPath> .
+<http://gnoss.com/ontology/gnossf.owl#awardNode> <http://www.w3.org/2000/01/rdf-schema#label> "Premio"@en .
+<http://gnoss.com/ontology/gnossf.owl#awardNode> <http://www.w3.org/2000/01/rdf-schema#label> "Premio"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#hasAward
+<http://gnoss.com/ontology/gnossf.owl#hasAward> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#hasAward> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#AwardWinner> .
+<http://gnoss.com/ontology/gnossf.owl#hasAward> <http://www.w3.org/2000/01/rdf-schema#range> <http://gnoss.com/ontology/gnossf.owl#AwardPath> .
+<http://gnoss.com/ontology/gnossf.owl#hasAward> <http://www.w3.org/2000/01/rdf-schema#label> "Award"@en .
+<http://gnoss.com/ontology/gnossf.owl#hasAward> <http://www.w3.org/2000/01/rdf-schema#label> "Premio"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#i_hasWinnerMovie
+<http://gnoss.com/ontology/gnossf.owl#i_hasWinnerMovie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#i_hasWinnerMovie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#AwardWinner> .
+<http://gnoss.com/ontology/gnossf.owl#i_hasWinnerMovie> <http://www.w3.org/2000/01/rdf-schema#label> "Mivie winner"@en .
+<http://gnoss.com/ontology/gnossf.owl#i_hasWinnerMovie> <http://www.w3.org/2000/01/rdf-schema#label> "Pelicula ganadora"@es .
+# 
+# http://gnoss.com/ontology/gnossf.owl#i_hasWinnerPerson
+<http://gnoss.com/ontology/gnossf.owl#i_hasWinnerPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://gnoss.com/ontology/gnossf.owl#i_hasWinnerPerson> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#AwardWinner> .
+<http://gnoss.com/ontology/gnossf.owl#i_hasWinnerPerson> <http://www.w3.org/2000/01/rdf-schema#label> "Person winner"@en .
+<http://gnoss.com/ontology/gnossf.owl#i_hasWinnerPerson> <http://www.w3.org/2000/01/rdf-schema#label> "Persona ganadora"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/name
+<http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#AwardWinner> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label> "Name of award"@en .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label> "Nombre del premio"@es .
+# 
+# http://www.w3.org/2006/time#year
+<http://www.w3.org/2006/time#year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2006/time#year> <http://www.w3.org/2000/01/rdf-schema#domain> <http://gnoss.com/ontology/gnossf.owl#AwardWinner> .
+<http://www.w3.org/2006/time#year> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2006/time#year> <http://www.w3.org/2000/01/rdf-schema#label> "Año"@es .
+<http://www.w3.org/2006/time#year> <http://www.w3.org/2000/01/rdf-schema#label> "Year"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://gnoss.com/ontology/gnossf.owl#AwardPath
+<http://gnoss.com/ontology/gnossf.owl#AwardPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://gnoss.com/ontology/gnossf.owl#AwardWinner
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/name> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2006/time#year> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#label> "Award Winner"@en .
+<http://gnoss.com/ontology/gnossf.owl#AwardWinner> <http://www.w3.org/2000/01/rdf-schema#label> "Ganador/a"@es .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

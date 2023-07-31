@@ -1,0 +1,17 @@
+{
+  "@context" : {
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "ratingValue" : {
+      "@id" : "http://schema.org/ratingValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "Rating" : {
+      "@id" : "http://schema.org/Rating"
+    }
+  }
+}
