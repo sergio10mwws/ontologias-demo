@@ -1,0 +1,21 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "1048c3b6:189ac07b018:-7ffc" "skos2:Concept" "skos2:Collection" ; /*classes style*/
+	"NULL" -> "1048c3b6:189ac07b018:-7ffa" [ label = "rdf:rest" ];
+	"NULL" -> "skos2:Collection" [ label = "rdf:first" ];
+	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "skos2:Concept" [ label = "rdf:first" ];
+	"NULL" -> "1048c3b6:189ac07b018:-7ffb" [ label = "owl:unionOf" ];
+	"skos2:Concept" -> "xsd:string" [ label = "dc:identifier" ];
+	"skos2:Concept" -> "xsd:string" [ label = "skos2:prefLabel" ];
+	"skos2:Concept" -> "skos2:Concept" [ label = "skos2:narrower" ];
+	"skos2:Concept" -> "xsd:string" [ label = "skos2:symbol" ];
+	"skos2:Concept" -> "xsd:string" [ label = "skos2:note" ];
+	"skos2:Concept" -> "skos2:Concept" [ label = "skos2:related" ];
+	"skos2:Collection" -> "skos2:Concept" [ label = "skos2:member" ];
+	"skos2:Collection" -> "xsd:string" [ label = "skos2:scopeNote" ];
+	"skos2:Concept" -> "skos2:Concept" [ label = "skos2:broader" ];
+	"1048c3b6:189ac07b018:-7ffc" -> "xsd:string" [ label = "dc:source" ];
+
+}
