@@ -1,0 +1,40 @@
+{
+  "@context" : {
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "i_hasWinnerMovie" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#i_hasWinnerMovie",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "AwardWinner" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#AwardWinner"
+    },
+    "name" : {
+      "@id" : "http://schema.org/name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "i_hasWinnerPerson" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#i_hasWinnerPerson",
+      "@type" : "@id"
+    },
+    "awardNode" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#awardNode",
+      "@type" : "@id"
+    },
+    "year" : {
+      "@id" : "http://www.w3.org/2006/time#year",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "AwardPath" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#AwardPath"
+    },
+    "hasAward" : {
+      "@id" : "http://gnoss.com/ontology/gnossf.owl#hasAward",
+      "@type" : "@id"
+    }
+  }
+}

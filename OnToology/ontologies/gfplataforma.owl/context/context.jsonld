@@ -1,0 +1,32 @@
+{
+  "@context" : {
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "sameAs" : {
+      "@id" : "http://schema.org/sameAs",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "logo" : {
+      "@id" : "http://schema.org/logo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "name" : {
+      "@id" : "http://schema.org/name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "identifier" : {
+      "@id" : "http://schema.org/identifier",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "CableOrSatelliteService" : {
+      "@id" : "http://schema.org/CableOrSatelliteService"
+    }
+  }
+}
