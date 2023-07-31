@@ -1,0 +1,191 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#detectedProblem
+<http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#entrySubject
+<http://vocab.linkeddata.es/ontology/report#entrySubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#hasEntry
+<http://vocab.linkeddata.es/ontology/report#hasEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#isEntryOfReport
+<http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#vocabularyStatus
+<http://vocab.linkeddata.es/ontology/report#vocabularyStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#numberVocabsError
+<http://vocab.linkeddata.es/ontology/report#numberVocabsError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#numberVocabsOK
+<http://vocab.linkeddata.es/ontology/report#numberVocabsOK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#numberVocabsWarning
+<http://vocab.linkeddata.es/ontology/report#numberVocabsWarning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#reportDate
+<http://vocab.linkeddata.es/ontology/report#reportDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#Entry
+<http://vocab.linkeddata.es/ontology/report#Entry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/ontology/report#Report
+<http://vocab.linkeddata.es/ontology/report#Report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/ontology/report#Warning
+<http://vocab.linkeddata.es/ontology/report#Warning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIAOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIAOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIAOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIAOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfcategoria.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIAOWL> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIAOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIA.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIAOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIAOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFGENEROOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFGENEROOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFGENEROOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFGENEROOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfgenero.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFGENEROOWL> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFGENEROOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFGENERO.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFGENEROOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFGENEROOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACIONOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACIONOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACIONOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACIONOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfocupacion.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACIONOWL> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACIONOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACION.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACIONOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACIONOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULAOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULAOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULAOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULAOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfpelicula.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULAOWL> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULAOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULA.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULAOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULAOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONAOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONAOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONAOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONAOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfpersona.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONAOWL> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONAOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONA.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONAOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONAOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMAOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMAOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMAOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMAOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfplataforma.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMAOWL> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMAOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMA.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMAOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMAOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIOOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIOOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIOOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIOOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfpremio.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIOOWL> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIOOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIO.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIOOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIOOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORAOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORAOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORAOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORAOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfproductora.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORAOWL> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORAOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORA.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORAOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORAOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFRATINGOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFRATINGOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFRATINGOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFRATINGOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfrating.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFRATINGOWL> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFRATINGOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFRATING.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFRATINGOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFRATINGOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMYOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMYOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMYOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMYOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gftaxonomy.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMYOWL> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMYOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMY.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMYOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMYOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC
+<http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Warning> .
+<http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> <http://www.w3.org/2000/01/rdf-schema#label> "Warning: title or description missing from vocabulary" .
+# 
+# http://vocab.linkeddata.es/ontology/report#REPORT1689941983764
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Report> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#numberVocabsError> "0" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#numberVocabsOK> "0" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning> "10" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#reportDate> "Fri Jul 21 14:19:43 CEST 2023"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://www.w3.org/2000/01/rdf-schema#label> "Report created on Fri Jul 21 14:19:43 CEST 2023" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIAOWL> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFGENEROOWL> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACIONOWL> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULAOWL> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONAOWL> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMAOWL> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIOOWL> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORAOWL> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFRATINGOWL> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1689941983764> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMYOWL> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

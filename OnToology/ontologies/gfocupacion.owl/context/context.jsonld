@@ -1,0 +1,14 @@
+{
+  "@context" : {
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "roleName" : {
+      "@id" : "http://schema.org/roleName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Role" : {
+      "@id" : "http://schema.org/Role"
+    }
+  }
+}
