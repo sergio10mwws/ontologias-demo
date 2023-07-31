@@ -87,19 +87,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_gnossf:pageID">
+      <node id="nid_schema:inLanguage">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="170.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">gnossf:pageID</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">schema:inLanguage</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty3" source="nid_NULL" target="nid_gnossf:pageID">
+    <edge id="eid_owl:onProperty3" source="nid_NULL" target="nid_schema:inLanguage">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -133,19 +133,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_schema:inLanguage">
+      <node id="nid_gnossf:pageID">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="170.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">schema:inLanguage</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">gnossf:pageID</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty5" source="nid_NULL" target="nid_schema:inLanguage">
+    <edge id="eid_owl:onProperty5" source="nid_NULL" target="nid_gnossf:pageID">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />

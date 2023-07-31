@@ -5,9 +5,9 @@ node [shape = rectangle, color="orange"]; "gnossf:CountryOriginPath" "schema:Mov
 	"NULL" -> "schema:alternateHeadline" [ label = "owl:onProperty" ];
 	"NULL" -> "gnossf:boxOffice" [ label = "owl:onProperty" ];
 	"NULL" -> "gnossf:budget" [ label = "owl:onProperty" ];
-	"NULL" -> "gnossf:pageID" [ label = "owl:onProperty" ];
-	"NULL" -> "gnossf:color" [ label = "owl:onProperty" ];
 	"NULL" -> "schema:inLanguage" [ label = "owl:onProperty" ];
+	"NULL" -> "gnossf:color" [ label = "owl:onProperty" ];
+	"NULL" -> "gnossf:pageID" [ label = "owl:onProperty" ];
 	"NULL" -> "schema:datePublished" [ label = "owl:onProperty" ];
 	"NULL" -> "schema:duration" [ label = "owl:onProperty" ];
 	"NULL" -> "schema:genre" [ label = "owl:onProperty" ];
