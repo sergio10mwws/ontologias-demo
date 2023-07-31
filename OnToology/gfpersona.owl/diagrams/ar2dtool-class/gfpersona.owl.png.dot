@@ -2,14 +2,14 @@ digraph ar2dtool_diagram {
 rankdir=LR;
 size="1501"
 node [shape = rectangle, color="orange"]; "gnossf:Person_Role" "schema:Person" "schema:Text" "foaf:OnlineAccount" "gnossf:CountryDeathPath" "gnossf:CountryBirthPath" "schema:MediaObject" ; /*classes style*/
-	"NULL" -> "schema:deathDate" [ label = "owl:onProperty" ];
-	"NULL" -> "schema:deathPlace" [ label = "owl:onProperty" ];
-	"NULL" -> "schema:image" [ label = "owl:onProperty" ];
 	"NULL" -> "schema:height" [ label = "owl:onProperty" ];
 	"NULL" -> "gnossf:popularity" [ label = "owl:onProperty" ];
 	"NULL" -> "gnossf:signature" [ label = "owl:onProperty" ];
 	"NULL" -> "schema:birthDate" [ label = "owl:onProperty" ];
 	"NULL" -> "schema:birthPlace" [ label = "owl:onProperty" ];
+	"NULL" -> "schema:deathDate" [ label = "owl:onProperty" ];
+	"NULL" -> "schema:deathPlace" [ label = "owl:onProperty" ];
+	"NULL" -> "schema:image" [ label = "owl:onProperty" ];
 	"schema:Person" -> "xsd:string" [ label = "schema:alternateName" ];
 	"schema:Person" -> "owl:Thing" [ label = "gnossf:i_actorOf" ];
 	"schema:Person" -> "gnossf:CountryBirthPath" [ label = "schema:birthPlace" ];
