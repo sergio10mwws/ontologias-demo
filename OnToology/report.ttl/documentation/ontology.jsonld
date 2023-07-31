@@ -1,0 +1,305 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIAOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIA.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1689941983764"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfcategoria.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFGENEROOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFGENERO.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1689941983764"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfgenero.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACIONOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACION.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1689941983764"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfocupacion.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULAOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULA.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1689941983764"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfpelicula.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONAOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONA.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1689941983764"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfpersona.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMAOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMA.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1689941983764"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfplataforma.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIOOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIO.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1689941983764"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfpremio.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORAOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORA.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1689941983764"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfproductora.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFRATINGOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFRATING.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1689941983764"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gfrating.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMYOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMY.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1689941983764"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-h9Lf/gftaxonomy.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#Entry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Warning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Warning: title or description missing from vocabulary"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1689941983764",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#hasEntry" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFCATEGORIAOWL"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFGENEROOWL"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFOCUPACIONOWL"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPELICULAOWL"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPERSONAOWL"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPLATAFORMAOWL"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPREMIOOWL"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFPRODUCTORAOWL"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFRATINGOWL"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1689941983764HOMEAHMADREPOSPREVCLONE-H9LFGFTAXONOMYOWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#numberVocabsError" : [ {
+    "@value" : "0"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#numberVocabsOK" : [ {
+    "@value" : "0"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#numberVocabsWarning" : [ {
+    "@value" : "10"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#reportDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "Fri Jul 21 14:19:43 CEST 2023"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Report"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Report created on Fri Jul 21 14:19:43 CEST 2023"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#Report",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#Warning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#detectedProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#entrySubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#hasEntry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#isEntryOfReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#numberVocabsError",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#numberVocabsOK",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#numberVocabsWarning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#reportDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#vocabularyStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+} ]
