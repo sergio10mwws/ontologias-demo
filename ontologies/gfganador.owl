@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:schema="http://schema.org/"
+    xmlns="http://www.owl-ontologies.com/Ontology1682597851.owl#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:gnossf="http://gnoss.com/ontology/gnossf.owl#"
+  xml:base="http://www.owl-ontologies.com/Ontology1682597851.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:about="http://gnoss.com/ontology/gnossf.owl#AwardPath"/>
+  <owl:Class rdf:about="http://gnoss.com/ontology/gnossf.owl#AwardWinner">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#year"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:about="http://schema.org/name"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:label xml:lang="en">Award Winner</rdfs:label>
+    <rdfs:label xml:lang="es">Ganador/a</rdfs:label>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://gnoss.com/ontology/gnossf.owl#i_hasWinnerPerson">
+    <rdfs:label xml:lang="es">Persona ganadora</rdfs:label>
+    <rdfs:label xml:lang="en">Person winner</rdfs:label>
+    <rdfs:domain rdf:resource="http://gnoss.com/ontology/gnossf.owl#AwardWinner"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gnoss.com/ontology/gnossf.owl#i_hasWinnerMovie">
+    <rdfs:label xml:lang="en">Mivie winner</rdfs:label>
+    <rdfs:label xml:lang="es">Pelicula ganadora</rdfs:label>
+    <rdfs:domain rdf:resource="http://gnoss.com/ontology/gnossf.owl#AwardWinner"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gnoss.com/ontology/gnossf.owl#hasAward">
+    <rdfs:range rdf:resource="http://gnoss.com/ontology/gnossf.owl#AwardPath"/>
+    <rdfs:label xml:lang="es">Premio</rdfs:label>
+    <rdfs:label xml:lang="en">Award</rdfs:label>
+    <rdfs:domain rdf:resource="http://gnoss.com/ontology/gnossf.owl#AwardWinner"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://gnoss.com/ontology/gnossf.owl#awardNode">
+    <rdfs:label xml:lang="en">Premio</rdfs:label>
+    <rdfs:label xml:lang="es">Premio</rdfs:label>
+    <rdfs:domain rdf:resource="http://gnoss.com/ontology/gnossf.owl#AwardPath"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#year">
+    <rdfs:domain rdf:resource="http://gnoss.com/ontology/gnossf.owl#AwardWinner"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:label xml:lang="es">Año</rdfs:label>
+    <rdfs:label xml:lang="en">Year</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:about="http://schema.org/name">
+    <rdfs:label xml:lang="en">Name of award</rdfs:label>
+    <rdfs:label xml:lang="es">Nombre del premio</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://gnoss.com/ontology/gnossf.owl#AwardWinner"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:FunctionalProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->
